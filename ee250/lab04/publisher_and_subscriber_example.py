@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
     #Since the library will take care of things in the background, we can use
     #this thread to regularly publish messages.
-    select = 0
+    select = 1
     time.sleep(1)
     while (True):
         if select == 1:
